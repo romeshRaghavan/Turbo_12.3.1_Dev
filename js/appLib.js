@@ -4866,8 +4866,6 @@ console.log("cityTownID : "+cityTownID);
                      t.executeSql("DELETE FROM BEHeader");
                  });
 
-
-alert("data.Status " +data.Status);
                  if (data.Status == 'Success') {
                      
                      var claimExpArray = data.expenseDetails;
